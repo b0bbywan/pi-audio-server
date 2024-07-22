@@ -93,6 +93,17 @@
  #
  ###############################################################################
  
+@@ -203,6 +203,10 @@
+ #       proxy_user "user"
+ #       proxy_password "password"
+ }
++input {
++	plugin	"cdio_paranoia"
++	speed	"12"
++}
+ 
+ # Decoder #####################################################################
+ #
 @@ -304,13 +304,13 @@
  # Please see README.Debian if you want mpd to play through the pulseaudio
  # daemon started as part of your graphical desktop session!
