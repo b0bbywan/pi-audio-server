@@ -219,6 +219,7 @@ export KEYBOARD_LAYOUT="${KEYBOARD_LAYOUT:-English (UK)}"
 export TIMEZONE_DEFAULT="${TIMEZONE_DEFAULT:-Europe/London}"
 
 export BLUETOOTH_PIN="${BLUETOOTH_PIN:-2024}"
+export SPOTIFYD_VERSION="${SPOTIFYD_VERSION:-0.3.5}"
 
 export GIT_HASH=${GIT_HASH:-"$(git rev-parse HEAD)"}
 
