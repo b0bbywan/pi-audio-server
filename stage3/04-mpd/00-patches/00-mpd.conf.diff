@@ -1,5 +1,5 @@
 --- stage3/rootfs/etc/mpd.conf
-+++ stage3/rootfs/etc/mpd.conf
++++ stage3/rootfs/usr/local/share/mpd.conf
 @@ -11,14 +11,14 @@
  # be disabled and audio files will only be accepted over ipc socket (using
  # file:// protocol) or streaming files over an accepted protocol.
