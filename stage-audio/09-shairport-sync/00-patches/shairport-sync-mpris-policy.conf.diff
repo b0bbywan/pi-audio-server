@@ -1,5 +1,5 @@
---- stage3/rootfs/etc/dbus-1/system.d/shairport-sync-mpris-policy.conf
-+++ stage3/rootfs/etc/dbus-1/system.d/shairport-sync-mpris-policy.conf
+--- stage3/rootfs/usr/share/dbus-1/system.d/shairport-sync-mpris-policy.conf
++++ stage3/rootfs/usr/share/dbus-1/system.d/shairport-sync-mpris-policy.conf
 @@ -4,7 +4,10 @@
            "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
  <busconfig>
