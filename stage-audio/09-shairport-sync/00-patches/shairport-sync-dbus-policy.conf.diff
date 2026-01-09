@@ -5,8 +5,8 @@
  <busconfig>
  
 -  <!-- Allow users "root" and "shairport-sync" to own the Shairport Sync service -->
-+  <!-- Allow users "root", "shairport-sync" and "pi" to own the Shairport Sync service -->
-+  <policy user="pi">
++  <!-- Allow users "root", "shairport-sync" and "FIRST_USER_NAME" to own the Shairport Sync service -->
++  <policy user="FIRST_USER_NAME">
 +    <allow own="org.gnome.ShairportSync"/>
 +  </policy>
    <policy user="root">
