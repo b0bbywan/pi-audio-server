@@ -13,5 +13,6 @@ install -v -m 755 files/bt-connection.sh "${ROOTFS_DIR}/usr/local/bin/bt-connect
 install -v -m 644 files/99-bluetooth.rules "${ROOTFS_DIR}/etc/udev/rules.d/99-bluetooth.rules"
 
 on_chroot << EOF
+	adduser $FIRST_USER_NAME bluetooth
 	systemctl enable bt-agent
 EOF
